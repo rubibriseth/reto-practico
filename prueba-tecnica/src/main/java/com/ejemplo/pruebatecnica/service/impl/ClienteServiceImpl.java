@@ -29,11 +29,6 @@ public class ClienteServiceImpl implements ClienteService {
     }
 
     @Override
-    public List<Cliente> getEdadesClientes() {
-        return clienteDAO.getListaEdadesClientes();
-    }
-
-    @Override
     public Double promedioEdades(List<Cliente> listClientes) {
 
         //List<Integer> listaEdades = listClientes.stream().map(c -> c.getEdad()).collect(Collectors.toList());

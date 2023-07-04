@@ -10,8 +10,6 @@ public interface ClienteService {
 
     Cliente addCliente(Cliente cliente);
 
-    List<Cliente> getEdadesClientes();
-
     Double promedioEdades(List<Cliente> listClientes);
 
     Double desviacionEstandar(List<Cliente> listClientes, double promedio);

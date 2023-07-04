@@ -9,6 +9,4 @@ import java.util.List;
 
 public interface ClienteDAO extends JpaRepository<Cliente, Integer> {
 
-    @Query(value="select * from cliente c", nativeQuery=true)
-    List<Cliente> getListaEdadesClientes();
 }
