@@ -1,0 +1,75 @@
+{
+	"info": {
+		"_postman_id": "1f935851-3040-4481-b6e7-4b7d58b8c367",
+		"name": "RetoPractico",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "listclientes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/listclientes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"listclientes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "creacliente",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\": \"Ricardo\",\r\n    \"apellido\": \"Vela Mendoza\",\r\n    \"edad\": 38,\r\n    \"fechaNacimiento\": \"25-12-1995\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/creacliente",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"creacliente"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "kpideclientes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/kpideclientes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"kpideclientes"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
